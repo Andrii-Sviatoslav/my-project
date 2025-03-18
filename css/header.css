@@ -1,0 +1,32 @@
+.header {
+    height: 36px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo-image {
+    width: 168px;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav-list-item {
+    margin: 0 12.5px;
+}
+
+.header-nav-list-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav-list-social-item>img {
+    fill: red;
+    border: 1rem red;
+}
