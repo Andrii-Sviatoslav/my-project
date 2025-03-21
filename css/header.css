@@ -11,6 +11,7 @@
 }
 
 .header-nav-list {
+    color: rgba(169, 169, 169, 0.829);
     display: flex;
     justify-content: space-between;
     align-items: center;

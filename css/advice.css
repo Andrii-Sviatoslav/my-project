@@ -1,0 +1,39 @@
+.advice-content {
+    background-image: url('https://images.ua.prom.st/3009968658_w1280_h1280_bentley_continental_gt_2019_9.jpg?fresh=1'); /* Замініть на шлях до вашого зображення */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; 
+  }
+  
+  .advice-content-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .button {
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .button.primary {
+    background-color: #e00; 
+    color: #fff;
+  }
+  button.secondary {
+    background-color: transparent;
+    border: 2px solid #e00;
+    color: #fff;
+  }

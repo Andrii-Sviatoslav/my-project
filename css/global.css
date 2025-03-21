@@ -1,8 +1,8 @@
 body {
     margin: 0 180px;
-    background-color: gray;
-    /* background:rgba(19, 19, 19, 0.85) */
-    font-family: "Teko", sans-serif;
+    /* background-color: gray; */
+    background:rgba(19, 19, 19, 0.85);
+    font-family: "Teko" sans-serif;
 }
 ul {
     padding: 0;

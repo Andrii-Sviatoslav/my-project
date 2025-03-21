@@ -1,0 +1,80 @@
+.container {
+    background-color: #222; 
+    color: #fff; 
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .title h1 {
+    font-size: 3em;
+    margin: 20px 0;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        min-height: 20px;
+        color: white;
+      }
+  
+  .cars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .car {
+    margin: 0 20px;
+    text-align: center;
+    color: rgb(243, 231, 231);
+  }
+  
+  .car img {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .price {
+    margin: 0 20px;
+    text-align: center;
+    color: rgb(243, 45, 45);
+
+  }
+  
+  .car h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .car button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .arrow {
+    background: none;
+    border: none;
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 20px;
+  }
+.info-container-text {
+    text-align: center;
+    color: rgba(169, 169, 169, 0.829);
+
+}
+.info {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+    background-color: #333;
+    
+}
