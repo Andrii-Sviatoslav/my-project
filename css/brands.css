@@ -1,0 +1,65 @@
+.brands-section {
+    background-color: #111;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .brands-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .brand-logo {
+    background-color: #222; 
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .brand-logo:hover {
+    background-color: #333;
+  }
+  
+  .brand-logo img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .featured-car {
+    text-align: center;
+  }
+  
+  .featured-car img {
+    max-width: 80%; 
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .brands-container {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .brand-logo {
+      width: calc(50% - 10px); 
+    }
+  
+    .featured-car img {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .brand-logo {
+      width: 100%; 
+    }
+  }

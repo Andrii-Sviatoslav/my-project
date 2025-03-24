@@ -1,0 +1,155 @@
+.contact-section {
+    background-color: #111; 
+    color: #fff;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info {
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 800px;
+  }
+
+  .contact-info h2 {
+    font-size: 2.5em;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  .contact-info p {
+    font-size: 1.1em;
+    color: #ccc;
+    margin-bottom: 15px;
+  }
+
+  .contact-details {
+    margin-top: 30px;
+  }
+
+  .contact-details p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .contact-details a {
+    color: #e00; 
+    text-decoration: none;
+  }
+
+  .contact-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  .contact-map iframe {
+    width: 100%; 
+    max-width: 600px; 
+    height: 450px;
+    border-radius: 5px;
+    border: 0;
+  }
+
+  .contact-map .address {
+    text-align: left;
+  }
+
+  .contact-map .address p {
+    font-size: 1em;
+    color: #ccc;
+    margin-bottom: 5px;
+  }
+
+  /* Галерея зображень */
+  .image-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  .gallery-track {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .gallery-item {
+    flex: 0 0 auto;
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    scroll-snap-align: start;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; 
+  }
+
+  .gallery-arrow {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 10px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+
+  .gallery-arrow:hover {
+    opacity: 1;
+  }
+
+  .gallery-arrow.left {
+    order: -1;
+  }
+
+  @media (max-width: 768px) {
+    .contact-info h2 {
+      font-size: 2em;
+    }
+
+    .contact-map {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact-map iframe {
+      width: 90%;
+      height: 350px;
+    }
+
+    .contact-map .address {
+      text-align: center;
+    }
+
+    .image-gallery {
+      margin-top: 20px;
+    }
+
+    .gallery-item {
+      width: 200px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .gallery-item {
+      width: 150px;
+    }
+  }
