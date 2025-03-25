@@ -1,49 +1,49 @@
 .hero {
-    padding: 200px 0;
+  padding: 200px 0;
 }
 
 .background-image {
-    height: auto;
-    background-image:linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+  height: auto;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
     url("../img/background.jpg");
-    background-position: center;
+  background-position: center;
   background-size: cover;
-} 
-.hero-title {
-color: aliceblue;
-font-size: 100px;
-display: flex;
-
-
 }
+
+.hero-title {
+  color: aliceblue;
+  font-size: 100px;
+  display: flex;
+}
+
 .hero-subtitle {
   color: rgba(169, 169, 169, 0.829);
   font-size: 20px;
-  }
-
-  .btn {
-    background-color: rgb(254, 46, 46); 
-    color: rgb(251, 251, 251);
-    box-sizing: border-box;
-    border-bottom: 110px;
-    font-size: 35px;
-    padding: 15px;
-    justify-content: center;
-    box-sizing: border-box;
-    
+  margin: 50px 0px;
 }
 
-.btn1 { 
-    font-size: 10px;
-    box-sizing: border-box;
-    border-bottom: 110px;
-    font-size: 35px;
-    padding: 15px;
-    background-color: transparent;
-    justify-content: center;
-    box-sizing: border-box;
+.hero-button {
+  border: 1px red solid;
+  font-size: 35px;
+  padding: 20px;
+  background-color: transparent;
+  color: white;
 }
-.page-link {
+
+.hero-button:hover {
+  background-color: rgb(254, 46, 46);
+}
+
+.button-primary {
+  margin-right: 20px;
+  background-color: rgb(254, 46, 46);
+}
+
+.button-secondary {
+  border: 1px red solid;
+}
+
+/* .page-link {
   padding: 8px 12px;
   margin: 0 5px;
   border: 1px solid #ccc;
@@ -59,4 +59,4 @@ display: flex;
 
 .page-link.next {
   margin-left: 10px;
-} 
+} */
