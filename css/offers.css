@@ -1,12 +1,18 @@
 .offers-section {
-    background-color: #222; 
-    color: #fff; 
+    color: rgba(169, 169, 169, 0.829); 
     padding: 80px 0;
-    text-align: center;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
   }
   
   .offers-content {
     margin-bottom: 50px;
+    max-width: 400px;
+    text-align: left;
+    padding: 20px;
   }
   
   .offers-title {
@@ -22,7 +28,8 @@
   }
   
   .offers-description {
-    font-size: 1.2em;
+    font-size: 1.3em;
+    color: #888;
   }
   
   .offers-grid {
@@ -31,12 +38,13 @@
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   .offer-card {
-    background-color: #333; 
-    padding: 30px;
-    text-align: center;
+    background: rgba(26, 26, 26, 0.77);
+    padding: 10px;
     border-radius: 5px;
     width: 350px;
   }
@@ -55,7 +63,7 @@
   
   .price {
     font-size: 1.1em;
-    color: #ccc;
+    color: #e00; 
     margin-bottom: 10px;
   }
   
@@ -66,18 +74,15 @@
     margin-bottom: 15px;
   }
   
-  .request-button {
-    background-color: #e00; 
-    color: #fff;
-    padding: 12px 25px;
-    border: none;
+  .request-button { 
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1em;
-  }
-  
-  .request-button:hover {
-    background-color: #c00;
+    background-color: transparent;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
   }
   
   @media (max-width: 992px) {

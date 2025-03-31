@@ -1,36 +1,51 @@
-.about-hero {
-    background-color: #f8f8f8;
-    padding: 80px 0;
-    text-align: left; 
+   .about-hero {
+    padding: 20px 0;
+    text-align: left;
+    color: rgba(169, 169, 169, 0.829);
   }
   
   .about-hero-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px; 
+    /* max-width: 600px; */
+    margin: 0;
+  }
+
+  .about-hero-content-image {
+    width: 20px;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    height: 500px;
   }
   
   .about-hero-title {
     font-size: 1.5em;
-    color: #555;
+    color: #ccc;
     margin-bottom: 10px;
+    padding: 20px;
+    display: inline-block;
   }
   
   .about-hero-heading {
     font-size: 3.5em;
     line-height: 1.1;
-    margin-bottom: 20px;
+  }
+
+  .about-hero-heading-red {
+    font-size: 3.5em;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    color: #e00;
   }
   
   .about-hero-description {
     font-size: 1.2em;
-    color: #333;
+    color: #ccc;
     margin-bottom: 30px;
   }
   
   .about-hero-text {
     font-size: 1em;
-    color: #333;
+    color: #ccc;
     line-height: 1.6;
     margin-bottom: 20px;
   }
@@ -61,7 +76,7 @@
   }
   
  
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .about-hero {
       padding: 60px 0;
       text-align: center; 
@@ -79,4 +94,4 @@
     .button {
       width: 100%;
     }
-  }
+  } */

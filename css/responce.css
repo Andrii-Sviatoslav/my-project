@@ -1,60 +1,109 @@
 .responce-section {
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
     padding: 80px 20px;
     text-align: center;
+    color: rgba(169, 169, 169, 0.829);
   }
   
   .responce-header h2 {
-    font-size: 2.5em;
-    color: #333;
+    font-size: 1.5em;
+    color: #fff;
     margin-bottom: 10px;
   }
   
   .responce-header p {
-    font-size: 1.1em;
-    color: #777;
-    margin-bottom: 30px;
+    font-size: 4em;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .responce-header-title p {
+    font-size: 20px;
+    color: #ccc;
   }
   
   .responce-card {
-    background-color: #fff;
-    max-width: 800px;
     margin: 40px auto;
-    padding: 40px;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
+    text-align: center;
+  }
+  
+  /* .responce-card-button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    left: 20px;
+  } */
+   
+  .responce-card-button {
+    padding: 0;
+    background: none;
+    border: none;
+    font-size: 2em;
+    color: #ccc;
+    cursor: pointer;
+    position: absolute; 
+  }
+
+  /* .responce-card-button.arrow {
+    left: 20px; 
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .responce-card-button.right {
+    right: 20px; 
+    top: 50%;
+    transform: translateY(-50%);
+  } */
+
+  .responce-card-button:hover {
+    text-decoration: underline;
+  }
+
+  .responce-card-image {
+    width: 150px;
+    display: inline-flex;
+    margin: 10px;
+    padding: 10px;
+    height: 150px;
+    
   }
   
   .responce-text {
-    font-size: 1.2em;
-    line-height: 1.8;
-    color: #555;
-    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1;
+    color: #ccc;
+    margin-bottom: 15px;
   }
   
   .responce-author {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 15px;
   }
   
   .author-name {
-    font-size: 1.1em;
+    font-size: 25px;
     font-weight: bold;
-    color: #333;
+    color: #fff;
     margin-bottom: 5px;
   }
   
   .author-title {
     font-size: 0.9em;
-    color: #777;
+    color: red;
+    margin: 15px;
   }
   
   .responce-date {
     font-size: 0.9em;
-    color: #999;
+    margin: 20px;
+    color:red;
   }
   
   @media (max-width: 768px) {

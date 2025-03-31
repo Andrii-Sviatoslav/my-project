@@ -1,36 +1,40 @@
 .advice-content {
-    background-image: url('https://images.ua.prom.st/3009968658_w1280_h1280_bentley_continental_gt_2019_9.jpg?fresh=1'); /* Замініть на шлях до вашого зображення */
-    background-size: cover;
-    background-position: center;
-    height: 100vh; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff; 
-  }
+  background-image: url('https://images.ua.prom.st/3009968658_w1280_h1280_bentley_continental_gt_2019_9.jpg?fresh=1');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   
-  .advice-content-text h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-  }
-  
-  .advice-content-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px; 
-  }
-  
-  .advice-content-button {
-    padding: 15px 30px;
-    font-size: 1em;
-  }
-  
-  .button-primary {
-    background-color: rgb(254, 46, 46);
-  }
-  
-  .button-secondary {
-    background-color: transparent;
-    border: 1px red solid;
-  }
+}
+
+.advice-content-text h1 {
+  font-size: 6em;
+  margin-bottom: 20px;
+}
+
+.advice-content-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.advice-content-button {
+  padding: 15px 30px;
+  font-size: 1em;
+}
+
+.button-primary {
+  background-color: rgb(254, 46, 46);
+}
+
+.button-secondary {
+  background-color: transparent;
+  border: 1px red solid;
+}
+
+.button-secondary:hover {
+  background-color: rgb(254, 46, 46);
+}
