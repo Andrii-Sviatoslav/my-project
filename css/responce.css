@@ -38,7 +38,7 @@
     left: 20px;
   } */
    
-  .responce-card-button {
+  /* .responce-card-button {
     padding: 0;
     background: none;
     border: none;
@@ -46,7 +46,18 @@
     color: #ccc;
     cursor: pointer;
     position: absolute; 
-  }
+  } */
+
+  .responce-arrow.left {
+    color: #ccc;
+    margin-left: 1px;
+    font-size: 40px;
+}
+  .responce-arrow.right {
+    color: #ccc;
+    margin-right: 1px;
+    font-size: 40px;
+}
 
   /* .responce-card-button.arrow {
     left: 20px; 

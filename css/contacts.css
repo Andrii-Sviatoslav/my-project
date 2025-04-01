@@ -1,9 +1,14 @@
 .contact-section {
     color: #fff;
-    padding: 80px 20px;
-    /* display: flex; */
-    flex-direction: column;
-    align-items: center;
+    padding: 80px 20px; 
+  }
+
+  .contact-wrapper {
+    display: flex; 
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: flex-start; 
   }
 
   .contact-info {
@@ -11,13 +16,24 @@
     margin-bottom: 40px;
     max-width: 800px;
   }
-
-  .contact-info h2 {
-    font-size: 50px;
-    text-align: left;
+  .contact-info {
+    flex: 1; 
+    padding-right: 40px;
   }
+  
+  .cont a {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .contact-info h2 {
+    font-size: 40px;
+    text-align: left;
+    color: #fff;
+  }
+  
   .contact-info h3 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 20px;
     color: #e00;
     text-align: left;
@@ -29,52 +45,21 @@
     color: #ccc;
     margin-bottom: 15px;
     text-align: left;
-    margin: 20px;
-  }
-
-  .contact-details {
-    margin-top: 30px;
-  }
-
-  .contact-details p {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-
-  .contact-details a {
-    color: #fff; 
-    text-decoration: none;
+    margin: 0;
   }
 
   .contact-map {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; 
-    gap: 30px;
-    max-width: 1200px;
-    width: 100%;
+    flex: 1; 
   }
-
+  
   .contact-map iframe {
     width: 100%; 
-    max-width: 600px; 
-    height: 450px;
-    border-radius: 5px;
-    border: 0;
+    height: auto; 
+    min-height: 400px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 
-  .contact-map .address {
-    text-align: left;
-  }
-
-  .contact-map .address p {
-    font-size: 1em;
-    color: #ccc;
-    margin-bottom: 5px;
-  }
-
-  /* Галерея зображень */
   .image-gallery {
     display: flex;
     align-items: center;
@@ -126,6 +111,19 @@
   .gallery-arrow.left {
     order: -1;
   }
+  
+  .view-larger-map {
+    display: block;
+    margin-top: 10px;
+    color: #e00;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .view-larger-map:hover {
+    text-decoration: underline;
+  }
 
   @media (max-width: 768px) {
     .contact-info h2 {
@@ -152,11 +150,5 @@
 
     .gallery-item {
       width: 200px;
-    }
-  }
-
-  @media (max-width: 576px) {
-    .gallery-item {
-      width: 150px;
     }
   }
