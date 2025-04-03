@@ -7,7 +7,7 @@
   <title>Car Leasing Company</title>
 
   <link href='https://fonts.googleapis.com/css?family=Teko' rel='stylesheet'>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -23,7 +23,6 @@
         <li class="header-nav-list-item">НОВИНИ</li>
         <li class="header-nav-list-item">НАШІ КОНТАКТИ</li>
       </ul>
-
     </nav>
     <ul class="header-nav-list-social">
       <li class="header-nav-list-social-item">
@@ -73,14 +72,6 @@
           та мають страховку на поломку.</p>
       </div>
       <button class="arrow margin-left">&gt;</button>
-      <!-- <div class="feature-item">
-        <div class="feature-icon">
-          <img src="./img/features/001-car rent.svg" alt="Усі юридичні папери подано">
-        </div>
-        <h3 class="feature-title">ЦІНА НА БУДЬ-ЯКУ МОДЕЛЬ</h3>
-        <p class="feature-description">Компанія може надати необов'язкову пропозицію на автомобілі всіх моделей і типів.
-        </p>
-      </div> -->
     </div>
   </section>
   <section class="loan">
@@ -174,7 +165,7 @@
         <h2 class="offers-heading">НАЙГАР<br>ЯЧІ<br>ПРОПО<br>ЗИЦІЇ</h2>
         <p class="offers-description">Скористайтеся спеціальними<br>цінами на оренду автомобіля!</p>
       </div>
-      <div class="offers-grid">
+      <div class="offers-cards">
         <div class="offer-card">
           <img src="./img/offers/ferrari.webp" alt="Ford Focus">
           <h3 class="car-model">FORD FOCUS ХЕТЧБЕК 1.0<br>ECOBOOST 140 ST-LINE</h3>
@@ -190,25 +181,25 @@
       </div>
     </div>
   </section>
-  <section class="about-hero">
-    <div class="about-hero">
-      <div class="about-hero-content">
-        <div class="about-hero-content-image">
-          <img src="/img/about-hero/image.png" alt="Peouple">
-        </div>
-        <p class="about-hero-title">ПРО НАС</p>
-        <h1 class="about-hero-heading">ЇЗДИТЬ АВТО З <br> НИЗЬКОЮ</h1>
-        <h1 class="about-hero-heading-red"> ЛІЗИНГОВОЮ <br> СТАВКОЮ</h1>
-        <p class="about-hero-description">FutureLease є провідним фахівцем з лізингу в США для бізнесу та особистого
+  <section class="about">
+    <div class="about-content">
+      <div class="about-content-image">
+        <img src="/img/about/image.png" alt="Peouple">
+      </div>
+      <div class="about-content-info">
+        <p class="about-title">ПРО НАС</p>
+        <h1 class="about-heading">ЇЗДИТЬ АВТО З <br> НИЗЬКОЮ</h1>
+        <h1 class="about-heading-red"> ЛІЗИНГОВОЮ <br> СТАВКОЮ</h1>
+        <p class="about-description">FutureLease є провідним фахівцем з лізингу в США для бізнесу та особистого
           лізингу.</p>
-        <p class="about-hero-text">У нас більше сотні угод з лізингу легкових автомобілів і мікроавтобусів. Наша перша
+        <p class="about-text">У нас більше сотні угод з лізингу легкових автомобілів і мікроавтобусів. Наша перша
           лізингова угода була укладена в 2004 році. З того часу ми стали лідерами на ринку, постачаючи автомобілі
           різних моделей вже більше 15 років. Ми задовольнили тисячі клієнтів у США та інших країнах.</p>
-        <p class="about-hero-text">FutureLease має всесвітню мережу виробників (дистриб'юторів автомобілів), тому ми
+        <p class="about-text">FutureLease має всесвітню мережу виробників (дистриб'юторів автомобілів), тому ми
           можемо запропонувати вам найкращі лізингові угоди. Наша мета полягає в тому, щоб побудувати безперервну
           співпрацю між компанією та нашими клієнтами, щоб переконатися, що ви повертатиметеся до нас знову і знову.
         </p>
-        <div class="about-hero-buttons">
+        <div class="about-buttons">
           <button class="button primary">ЗАПИТАТИ ЦІНОВУ ПРОПОЗИЦІЮ</button>
           <button class="button secondary">ДІЗНАЙТЕСЬ БІЛЬШЕ</button>
         </div>
@@ -228,7 +219,8 @@
             <img src="./img/leasing/003-calendar.svg" alt="badge">
           </div>
           <h3>ПОВНІСТЮ <br> ЗАСТРАХОВАНИЙ <br> ЛІЗИНГ</h3>
-          <p>Страхова компанія AD є нашим партнером. Страхування повного комплексного страхування входить в базовий пакет.</p>
+          <p>Страхова компанія AD є нашим партнером. Страхування повного комплексного страхування входить в базовий
+            пакет.</p>
           <p>ДІЗНАЙТЕСЬ БІЛЬШЕ</p>
         </div>
         <div class="leasing-card">
@@ -252,7 +244,8 @@
             <img src="./img/leasing/014-car rent.svg" alt="badge">
           </div>
           <h3>ЛІЗИНГ ДЛЯ <br> ПІДПРИЄМНИЦЬКИХ <br> СПРАВ</h3>
-          <p>Ми працюємо з компаніями, яким потрібні транспортні засоби для представницької діяльності або просто щоденного використання</p>
+          <p>Ми працюємо з компаніями, яким потрібні транспортні засоби для представницької діяльності або просто
+            щоденного використання</p>
           <p>ДІЗНАЙТЕСЬ БІЛЬШЕ</p>
         </div>
         <div class="leasing-card">
@@ -268,153 +261,146 @@
             <img src="./img/leasing/032-map location.svg" alt="badge">
           </div>
           <h3>ПОСІБНИК З <br> КОНТРАКТНОГО <br> ОРЕНДУ</h3>
-          <p>Місячна сума оренди залежить від первісної вартості транспортного засобу, пробігу та терміну дії договору.</p>
+          <p>Місячна сума оренди залежить від первісної вартості транспортного засобу, пробігу та терміну дії договору.
+          </p>
           <p>ДІЗНАЙТЕСЬ БІЛЬШЕ</p>
         </div>
       </div>
     </div>
   </section>
-
-  <section class="Responce">
-    <div class="responce-section">
-      <div class="responce-header">
-        <h2>ВІДГУКИ</h2>
-        <p>ЩО ГОВОРЯТЬ НАШІ КЛІЄНТИ</p>
-        <div class="responce-header-title">
-        <p>Ми раді отримати ваші відгуки та надати вам виняткові послуги!</p>
-      </div>
-    </div>
-        <div class="responce-card-image">
+  <section class="responce">
+    <h2 class="responce-header-title">ВІДГУКИ</h2>
+    <p class="responce-header-subtitle">ЩО ГОВОРЯТЬ НАШІ КЛІЄНТИ</p>
+    <p class="responce-header-text">Ми раді отримати ваші відгуки та надати вам виняткові послуги!</p>
+    <div class="responce-card">
+      <button class="arrow margin-right">&lt;</button>
+      <div class="responce-card-info">
+        <div class="responce-card-info-image">
           <img src="./img/responce/61de9f4242df4e002345c267_optimized.webp" alt="women">
         </div>
-        <div class="responce-card">
-          <button class="responce-arrow left">&lt;</button>
-        <div class="responce-author">
-          <p class="author-name">ДАНІЕЛЛА МАЛТОН</p>
-          <p class="author-title">ДИРЕКТОР З МАРКЕТИНГУ DOWSON & CO</p>
-          <button class="responce-arrow right">&gt;</button>
-        </div>
-      </div>
-        <p class="responce-text">"Компанія підтримувала нас на кожному кроці. Крім того, Volkswagen, яким я керував,
+        <p class="responce-card-info-author-name">ДАНІЕЛЛА МАЛТОН</p>
+        <p class="responce-card-info-author-title">ДИРЕКТОР З МАРКЕТИНГУ DOWSON & CO</p>
+        <p class="responce-card-info-text">"Компанія підтримувала нас на кожному кроці. Крім того, Volkswagen, яким я
+          керував,
           був чудовим. Якщо б я знову брав автомобіль у лізинг, FutureLease є найочевиднішим вибором. Процес лізингу
           та підписання всіх документів був простим і зрозумілим, а ціна була чіткою, без прихованих платежів".
         </p>
-        <p class="responce-date">15 ЖОВТНЯ 2024 P</p>
+        <p class="responce-card-info-date">15 ЖОВТНЯ 2024 P</p>
       </div>
+      <button class="arrow margin-left">&gt;</button>
     </div>
   </section>
   <section class="news">
-    <div class="news-section">
-      <div class="news-header">
-        <p>НОВИНИ</p>
-        <h2>ОСТАННІ НОВИНИ</h2>
-        <p>Читайте статті про автомобільну промисловість.</p>
+    <div class="news-header">
+      <p class="news-header-title">НОВИНИ</p>
+      <h2 class="news-header-subtitle">ОСТАННІ НОВИНИ</h2>
+      <p class="news-header-text">Читайте статті про автомобільну промисловість.</p>
+    </div>
+    <div class="news-grid">
+      <div class="news-card">
+        <img src="./img/news/BMW.webp" alt="BMW">
+        <p class="news-card-category">НОВИНИ | 23 ВЕРЕСНЯ 2022 РОКУ</p>
+        <h3 class="news-card-text">AUDI I HYUNDAI СПІВПРАЦЮВАТИМУТЬ ЩОДО ВОДНЕВОГО ПАЛИВА</h3>
+        <p class="news-card-excerpt">Audi та Hyundai оголосили про плани спільно вивести паливні елементи на масове
+          виробництво швидше та ефективніше, ніж зараз, а також досліджувати більше .....</p>
+        <button class="news-card-read-more">ЧИТАТИ ДАЛІ</button>
       </div>
-      <div class="news-grid">
-        <div class="news-card">
-          <img src="./img/news/BMW.webp" alt="BMW">
-          <p class="news-category">НОВИНИ | 23 ВЕРЕСНЯ 2022 РОКУ</p>
-          <h3>AUDI I HYUNDAI СПІВПРАЦЮВАТИМУТЬ ЩОДО ВОДНЕВОГО ПАЛИВА</h3>
-          <p class="news-excerpt">Audi та Hyundai оголосили про плани спільно вивести паливні елементи на масове
-            виробництво швидше та ефективніше, ніж зараз, а також досліджувати більше .....</p>
-          <button class="read-more">ЧИТАТИ ДАЛІ</button>
-        </div>
-        <div class="news-card">
-          <img src="./img/news/speed.webp" alt="speed">
-          <p class="news-category">ОГЛЯД | 24 ВЕРЕСНЯ 2022 РОКУ</p>
-          <h3>ОГЛЯД : CITROEN C3 AIRCROSS , СТИЛЬНИЙ ОНОВЛЕНИЙ АВТОМОБІЛЬ</h3>
-          <p class="news-excerpt">Вам можна пробачити , якщо ви думаєте , що Citroen вже є гравцем у секторі малих
-            позашляховиків , але його СЗ Аігcross є першим справжнім учасником цього класу , що розвивається . Тоді як
-            С4 Cactus ...</p>
-          <button class="read-more">ЧИТАТИ ДАЛІ</button>
-        </div>
-        <div class="news-card">
-          <img src="./img/news/AUDI.webp" alt="audi">
-          <p class="news-category">ТОП 5 | 22 ВЕРЕСНЯ 2022 РОКУ</p>
-          <h3>П'ЯТЬ НАЙКРАЩИХ АВТОМОБІЛІВ ЗА ЦІНОЮ МЕНШЕ 300 ДОЛАРІВ НА МІСЯЦЬ</h3>
-          <p class="news-excerpt">Ми вже перевірили , які автомобілі доступні , якщо ваш бюджет становить 200 доларів
-            на місяць , але що , якщо ви можете розтягнутись до 300 доларів ? Оскільки щомісячні платежі по лізингу
-            автомобілів становлять ......</p>
-          <button class="read-more">ЧИТАТИ ДАЛІ</button>
-        </div>
+      <div class="news-card">
+        <img src="./img/news/speed.webp" alt="speed">
+        <p class="news-card-category">ОГЛЯД | 24 ВЕРЕСНЯ 2022 РОКУ</p>
+        <h3>ОГЛЯД : CITROEN C3 AIRCROSS , СТИЛЬНИЙ ОНОВЛЕНИЙ АВТОМОБІЛЬ</h3>
+        <p class="news-card-excerpt">Вам можна пробачити , якщо ви думаєте , що Citroen вже є гравцем у секторі малих
+          позашляховиків , але його СЗ Аігcross є першим справжнім учасником цього класу , що розвивається . Тоді як
+          С4 Cactus ...</p>
+        <button class="news-card-read-more">ЧИТАТИ ДАЛІ</button>
+      </div>
+      <div class="news-card">
+        <img src="./img/news/AUDI.webp" alt="audi">
+        <p class="news-card-category">ТОП 5 | 22 ВЕРЕСНЯ 2022 РОКУ</p>
+        <h3>П'ЯТЬ НАЙКРАЩИХ АВТОМОБІЛІВ ЗА ЦІНОЮ МЕНШЕ 300 ДОЛАРІВ НА МІСЯЦЬ</h3>
+        <p class="news-card-excerpt">Ми вже перевірили , які автомобілі доступні , якщо ваш бюджет становить 200 доларів
+          на місяць , але що , якщо ви можете розтягнутись до 300 доларів ? Оскільки щомісячні платежі по лізингу
+          автомобілів становлять ......</p>
+        <button class="news-card-read-more">ЧИТАТИ ДАЛІ</button>
       </div>
     </div>
   </section>
   <section class="brands">
-    <div class="brands-section">
-      <div class="brands-container">
-        <div class="brand-logo">
-          <img src="./img/brands/toyota.svg" alt="Toyota">
-        </div>
-        <div class="brand-logo">
-          <img src="./img/brands/citroen.svg" alt="Citroen">
-        </div>
-        <div class="brand-logo">
-          <img src="/img/brands/hyundai.svg" alt="Hyundai">
-        </div>
-        <div class="brand-logo">
-          <img src="/img/brands/honda.svg" alt="Honda">
-        </div>
-        <div class="brand-logo">
-          <img src="/img/brands/tesla.svg" alt="Tesla">
-        </div>
+    <div class="brands-container">
+      <div class="brand-logo">
+        <img src="./img/brands/toyota.svg" alt="Toyota">
       </div>
-      <div class="featured-car">
-        <img src="./img/brands/hyundai-i30.png" alt="Hyundai i30N">
+      <div class="brand-logo">
+        <img src="./img/brands/citroen.svg" alt="Citroen">
+      </div>
+      <div class="brand-logo">
+        <img src="/img/brands/hyundai.svg" alt="Hyundai">
+      </div>
+      <div class="brand-logo">
+        <img src="/img/brands/honda.svg" alt="Honda">
+      </div>
+      <div class="brand-logo">
+        <img src="/img/brands/tesla.svg" alt="Tesla">
       </div>
     </div>
   </section>
-      <section class="contact-section">
-        <div class="contact-wrapper">
-          <div class="contact-info">
-      <h2>У ВАС Є ЗАПИТАННЯ? <br> НЕ ЧЕКАЙТЕ, </h2>
-      <h3>ЗВ'ЯЖІТЬСЯ З НАМИ!</h3>
-      <p><br>Потрібна консультація щодо лізингу? Наша команда консультантів з лізингу готова допомогти.</p>
-      <div class="contact-cont">
-        <p class="cont"><a href="tel:+12345678900">+1 (234) 567 89 00</a></p></li>
-        <p class="cont"><a href="mailto:futurelease@email.com">futurelease@email.com</a></p></li>
+  <div class="featured-car">
+    <img src="./img/brands/hyundai-i30.png" alt="Hyundai i30N">
+  </div>
+  <section class="contact">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2 class="contact-info-title">У ВАС Є ЗАПИТАННЯ? НЕ ЧЕКАЙТЕ, </h2>
+        <h3 class="contact-info-subtitle">ЗВ'ЯЖІТЬСЯ З НАМИ!</h3>
+        <p class="contact-info-text"><br>Потрібна консультація щодо лізингу? Наша команда консультантів з лізингу готова
+          допомогти.</p>
+        <div class="contact-info-contacts">
+          <p class="contact-info-contact"><a href="tel:+12345678900">+1 (234) 567 89 00</a></p>
+          </li>
+          <p class="contact-info-contact"><a href="mailto:futurelease@email.com">futurelease@email.com</a></p>
+          </li>
+        </div>
+      </div>
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.628795541703!2d-73.94958138459326!3d40.7138235793286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2593c145313cf%3A0x7e9569a6f4429f4!2s142%20Madison%20St%2C%20Brooklyn%2C%20NY%2011216%2C%20USA!5e0!3m2!1sen!2sua!4v1679680800000!5m2!1sen!2sua"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
-    <div class="contact-map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.628795541703!2d-73.94958138459326!3d40.7138235793286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2593c145313cf%3A0x7e9569a6f4429f4!2s142%20Madison%20St%2C%20Brooklyn%2C%20NY%2011216%2C%20USA!5e0!3m2!1sen!2sua!4v1679680800000!5m2!1sen!2sua"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <div class="address">
-    </div>
-  </div>
-</section>
-<section class="image-gallery-foot">
+  </section>
+  <section class="image-gallery-foot">
     <div class="image-gallery-foot-cars">
       <button class="gallery-arrow left">&lt;</button>
       <!-- <div class="gallery-track"> -->
-        <div class="gallery-item-cars">
-          <img src="./img/gallery-foot/bmw.webp" alt="Bmw Interior">
-        </div>
-        <div class="gallery-item-cars">
-          <img src="./img/gallery-foot/audi.webp" alt="audi">
-        </div>
-        <div class="gallery-item-cars">
-          <img src=".//img/gallery-foot/jeep.webp" alt="Jeep">
-        </div>
-        <div class="gallery-item-cars">
-          <img src="/img/gallery-foot/tesla.webp" alt="Tesla Interior">
-        </div>
-        <div class="gallery-item-cars">
-          <img src="./img/gallery-foot/volovo.webp" alt="Volvo">
-        </div>
-        <!-- <div class="gallery-item">
+      <div class="gallery-item-cars">
+        <img src="./img/gallery-foot/bmw.webp" alt="Bmw Interior">
+      </div>
+      <div class="gallery-item-cars">
+        <img src="./img/gallery-foot/audi.webp" alt="audi">
+      </div>
+      <div class="gallery-item-cars">
+        <img src=".//img/gallery-foot/jeep.webp" alt="Jeep">
+      </div>
+      <div class="gallery-item-cars">
+        <img src="/img/gallery-foot/tesla.webp" alt="Tesla Interior">
+      </div>
+      <div class="gallery-item-cars">
+        <img src="./img/gallery-foot/volovo.webp" alt="Volvo">
+      </div>
+      <!-- <div class="gallery-item">
           <img src="./img/gallery-foot/people.webp" alt="Peouple">
         </div> -->
-        <button class="gallery-arrow right">&gt;</button>
-      </div>
+      <button class="gallery-arrow right">&gt;</button>
+    </div>
     </div>
   </section>
   <footer>
     <div class="footer-top">
       <div class="footer-column">
         <h3>FUTURELEASE</h3>
-        <p>Є провідною компанією США з бізнес-лізингу та особистого лізингу.</p>
+        <img class="header-logo-image" src="./img/logo.svg" alt="Company logo">
+        <p>FUTURELEASE є провідною компанією США з бізнес-лізингу та особистого лізингу.</p>
       </div>
       <div class="footer-column">
         <h3>НАВІГАЦІЯ</h3>
@@ -437,16 +423,15 @@
       <div class="footer-column">
         <h3>ДОПОМОГА ТА ПІДТРИМКА</h3>
         <ul>
-        <li><a href="#">ПОСІБНИК З ЛІЗИНГУ</a></li>
-        <li><a href="#">ПОРЯДОК ПОДАЧІ СКАРГ</a></li>
-        <li><a href="#">ПОЛІТИКА КОНФІДЕНЦІЙНОСТІГ</a></li>
-        <li><a href="#">ПОЛОЖЕННЯ ТА УМОВИ</a></li>
-      </ul>
+          <li><a href="#">ПОСІБНИК З ЛІЗИНГУ</a></li>
+          <li><a href="#">ПОРЯДОК ПОДАЧІ СКАРГ</a></li>
+          <li><a href="#">ПОЛІТИКА КОНФІДЕНЦІЙНОСТІГ</a></li>
+          <li><a href="#">ПОЛОЖЕННЯ ТА УМОВИ</a></li>
+        </ul>
       </div>
-        <div class="footer-column">
+      <div class="footer-column">
         <h3>ОТРИМАТИ СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</h3>
         <form class="subscribe-form">
-          <label for="email">Електронна пошта</label>
           <input type="email" id="email" name="email" placeholder="електронна пошта">
           <button type="submit">ПІДПИШІТЬСЯ!</button>
         </form>

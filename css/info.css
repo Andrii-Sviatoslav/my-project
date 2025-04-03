@@ -5,66 +5,67 @@
 
 .info-container {
   color: rgba(169, 169, 169, 0.829);
-    text-align: center;
-  }
-  .info-container-text {
-    padding: 20px;
-    font-size: 25px;
-    color: #888;
-    margin-bottom: 20px;
-  }
-   
+  text-align: center;
+}
+
+.info-container-text {
+  padding: 20px;
+  font-size: 25px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
 .info-container-title {
   font-size: 30px;
   padding: 15px;
 }
 
-.info-container-subtitle { 
+.info-container-subtitle {
   font-size: 70px;
 }
-  
-  .info-container-cars {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-  }
-  
-  .info-container-car {
-    margin: 0 20px;
-  }
-  
-  .info-container-car img {
-    height: 120px;
-    max-width: 360px;
-    margin-bottom: 20px;
-  }
 
-  .info-container-car-title {
-    margin-bottom: 12px;
-  }
-  
-  .info-container-car-price {
-    margin: 10px 0;
-    color: rgb(243, 45, 45);
-    font-size: 15px;
-  }
+.info-container-cars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
 
-  .info-container-car-text {
-    margin: 10px 0;
-    color: #888;
-    font-size: 20px;
-  }
-  
-  .info-container-car-button {
-    background-color: transparent;
-    color: white;
-    padding: 10px 30px;
-    border: none;
-    margin-top: 20px;
-    font-size: 20px;
-  }
+.info-container-car {
+  margin: 0 20px;
+}
 
-  .info-container-car-button:hover {
-    text-decoration: underline;
-  }
+.info-container-car img {
+  height: 120px;
+  max-width: 360px;
+  margin-bottom: 20px;
+}
+
+.info-container-car-title {
+  margin-bottom: 12px;
+}
+
+.info-container-car-price {
+  margin: 10px 0;
+  color: rgb(243, 45, 45);
+  font-size: 15px;
+}
+
+.info-container-car-text {
+  margin: 10px 0;
+  color: #888;
+  font-size: 20px;
+}
+
+.info-container-car-button {
+  background-color: transparent;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.info-container-car-button:hover {
+  text-decoration: underline;
+}

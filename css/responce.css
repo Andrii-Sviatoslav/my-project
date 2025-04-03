@@ -1,136 +1,65 @@
-.responce-section {
-    /* background-color: #f8f8f8; */
-    padding: 80px 20px;
-    text-align: center;
+.responce {
+  margin: 60px 180px;
+  text-align: center;
     color: rgba(169, 169, 169, 0.829);
   }
   
-  .responce-header h2 {
+  .responce-header-title {
     font-size: 1.5em;
     color: #fff;
     margin-bottom: 10px;
   }
   
-  .responce-header p {
+  .responce-header-subtitle {
     font-size: 4em;
     color: #fff;
     margin-bottom: 20px;
   }
 
-  .responce-header-title p {
+  .responce-header-text {
     font-size: 20px;
     color: #ccc;
+    margin-bottom: 20px;
   }
-  
+
   .responce-card {
-    margin: 40px auto;
-    border-radius: 5px;
-    text-align: center;
-  }
-  
-  /* .responce-card-button {
-    background-color: transparent;
-    color: white;
-    padding: 10px 30px;
-    border: none;
-    margin-top: 20px;
-    font-size: 20px;
-    left: 20px;
-  } */
-   
-  /* .responce-card-button {
-    padding: 0;
-    background: none;
-    border: none;
-    font-size: 2em;
-    color: #ccc;
-    cursor: pointer;
-    position: absolute; 
-  } */
-
-  .responce-arrow.left {
-    color: #ccc;
-    margin-left: 1px;
-    font-size: 40px;
-}
-  .responce-arrow.right {
-    color: #ccc;
-    margin-right: 1px;
-    font-size: 40px;
-}
-
-  /* .responce-card-button.arrow {
-    left: 20px; 
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
-  .responce-card-button.right {
-    right: 20px; 
-    top: 50%;
-    transform: translateY(-50%);
-  } */
-
-  .responce-card-button:hover {
-    text-decoration: underline;
-  }
-
-  .responce-card-image {
-    width: 150px;
-    display: inline-flex;
-    margin: 10px;
-    padding: 10px;
-    height: 150px;
-    
-  }
-  
-  .responce-text {
-    font-size: 20px;
-    line-height: 1;
-    color: #ccc;
-    margin-bottom: 15px;
-  }
-  
-  .responce-author {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 15px;
+    flex-direction: row;
+    justify-content: space-between;
   }
   
-  .author-name {
+  .responce-card-info {
+    width: 750px;
+  }
+
+  .responce-card-info-image img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .responce-card-info-author-name {
     font-size: 25px;
     font-weight: bold;
     color: #fff;
     margin-bottom: 5px;
   }
   
-  .author-title {
+  .responce-card-info-author-title {
     font-size: 0.9em;
     color: red;
     margin: 15px;
   }
+
+  .responce-card-info-text {
+    font-size: 20px;
+    line-height: 1;
+    color: #ccc;
+    margin-bottom: 15px;
+  }
   
-  .responce-date {
+  .responce-card-info-date {
     font-size: 0.9em;
     margin: 20px;
     color:red;
   }
-  
-  @media (max-width: 768px) {
-    .responce-header h2 {
-      font-size: 2em;
-    }
-  
-    .responce-header p {
-      font-size: 1em;
-    }
-  
-    .responce-card {
-      padding: 30px;
-    }
-  
-    .responce-text {
-      font-size: 1.1em;
-    }
-  }
+ 
