@@ -1,3 +1,13 @@
+.background {
+    background-image: url('/img/background/csm_Golf_VIII_R_Press-4_3b05c5968b.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     height: 36px;
     padding: 10px 0;
@@ -12,14 +22,34 @@
 }
 
 .header-nav-list {
-    color: rgba(169, 169, 169, 0.829);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .header-nav-list-item {
-    margin: 0 12.5px;
+    position: relative;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.header-nav-list-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.5s ease;
+}
+
+.header-nav-list-item:hover::after {
+    width: 100%;
 }
 
 .header-nav-list-social {
@@ -28,7 +58,21 @@
     align-items: center;
 }
 
-.header-nav-list-social-item>img {
-    fill: red;
-    border: 1rem red;
+.header-nav-list-social-item {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 2px solid #e00;
+    background-position: center;
 }
+
+.header-nav-list-social-item :hover {
+    filter: hue-rotate(180deg) saturate(5);
+}
+
+
+
+
+  

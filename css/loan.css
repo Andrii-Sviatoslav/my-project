@@ -3,27 +3,21 @@
 }
 
 .loan-list-item {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   display: flex;
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
 
 .image-container img {
-  max-width: 670px;
+  max-width: 580px;
   height: auto;
   display: block;
   display: grid;
+  height: 380px;
 }
 
 .text-container {
   flex: 1;
-}
-
-.text-container h2 {
-  font-size: 40px;
-  margin-bottom: 15px;
-  color: #e00;
-  padding: 10px;
 }
 
 .text-container button {
@@ -36,9 +30,15 @@
 .category {
   font-size: 15px;
   color: #888;
-  margin-bottom: 20px;
-  padding: 10px 0 0 15px;
   font-weight: bold;
+  padding: 15px 10px;
+}
+
+.categore-subtext {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #e00;
+  padding: 10px;
 }
 
 .category-text {
@@ -51,7 +51,7 @@
 
 .content-button {
   margin: 10px 15px;
-  /* width: 250px;
+  width: 250px;
   height: 60px;
-  font-size: 15px; */
+  font-size: 15px;
 }

@@ -1,0 +1,10 @@
+.hy {
+background-image: url('/img/brands/hyundai-i30.png');
+background-size: cover;
+background-position: center;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}

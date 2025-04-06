@@ -1,33 +1,35 @@
   .brands {
     margin: 60px 180px;
   }
-  
+
   .brands-container {
     display: flex;
     justify-content: center;
     gap: 40px;
   }
-  
+
   .brand-logo {
     padding: 20px 70px 20px;
     cursor: pointer;
     transition: 0.3s ease;
     background-color: #111;
   }
-  
+
   .brand-logo img {
     max-width: 90px;
   }
-  
+
   .brand-logo:hover {
     background-color: #333;
   }
-  
-  .featured-car {
-    color: rgba(169, 169, 169, 0.829);
+
+  .hyundai {
+    background-image: url(/img/brands/hyundai-i30.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
-  
-  .featured-car img {
-    max-width: 100%; 
-  }
-  

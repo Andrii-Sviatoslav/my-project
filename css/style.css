@@ -1,5 +1,6 @@
 @import "./global.css";
 @import "./header.css";
+@import "./background.css";
 @import "./hero.css";
 @import "./features.css";
 @import "./loan.css";
@@ -11,6 +12,7 @@
 @import "./responce.css";
 @import "./news.css";
 @import "./brands.css";
+@import "./hy.css";
 @import "./contacts.css";
 @import "./image-gallery.css";
 @import "./footer.css";

@@ -47,7 +47,7 @@
 
 .info-container-car-price {
   margin: 10px 0;
-  color: rgb(243, 45, 45);
+  color: #e00;
   font-size: 15px;
 }
 
@@ -59,7 +59,7 @@
 
 .info-container-car-button {
   background-color: transparent;
-  color: white;
+  color: #fff;
   padding: 10px 30px;
   border: none;
   margin-top: 20px;

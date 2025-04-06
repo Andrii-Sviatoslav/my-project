@@ -3,61 +3,37 @@
   margin: 0 180px;
 }
 
-.background-image {
-  height: auto;
-  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
-    url("../img/background.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
 .hero-title {
-  color: aliceblue;
+  color: #fff;
   font-size: 100px;
   display: flex;
 }
 
 .hero-subtitle {
-  color: rgba(169, 169, 169, 0.829);
+  color: #fff;
   font-size: 20px;
-  margin: 50px 0px;
+  margin: 0 730px 25px 0;
+  font-weight: bold;
+  background-color: #0000ff;
 }
 
 .hero-button {
-  border: 1px red solid;
-  font-size: 35px;
+  border: 1px #e00;
+  font-size: 30px;
   padding: 20px;
   background-color: transparent;
-  color: white;
+  color: #fff;
 }
 
 .hero-button:hover {
-  background-color: rgb(254, 46, 46);
+  background-color: #e00;
 }
 
 .button-primary {
   margin-right: 20px;
-  background-color: rgb(254, 46, 46);
+  background-color: #e00;
 }
 
 .button-secondary {
-  border: 1px red solid;
+  border: 1px #e00 solid;
 }
-
-/* .page-link {
-  padding: 8px 12px;
-  margin: 0 5px;
-  border: 1px solid #ccc;
-  text-decoration: none;
-  color: #333;
-}
-
-.page-link.active {
-  background-color: #007bff;
-  color: white;
-  border-color: #007bff;
-}
-
-.page-link.next {
-  margin-left: 10px;
-} */

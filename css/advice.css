@@ -1,16 +1,16 @@
 .advice-content {
-  background-image: url('https://images.ua.prom.st/3009968658_w1280_h1280_bentley_continental_gt_2019_9.jpg?fresh=1');
+  background-image: url('/img/advice/29985722-f215-4dd9-ba4d-47e778e61718_large.webp');
   background-size: cover;
   background-position: center;
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;  
+  text-align: center;
 }
 
-.advice-content-text h1 {
-  font-size: 6em;
+.advice-content-text-main {
+  font-size: 96px;
   margin-bottom: 20px;
 }
 
@@ -22,18 +22,14 @@
 
 .advice-content-button {
   padding: 15px 30px;
-  font-size: 1em;
-}
-
-.button-primary {
-  background-color: rgb(254, 46, 46);
+  font-size: 16px;
 }
 
 .button-secondary {
   background-color: transparent;
-  border: 1px red solid;
+  border: 1px #e00 solid;
 }
 
 .button-secondary:hover {
-  background-color: rgb(254, 46, 46);
+  background-color: #e00;
 }
