@@ -24,7 +24,7 @@
   }
 
   .hyundai {
-    background-image: url(/img/brands/hyundai-i30.png);
+    background-image: url('/img/brands/hyundai-i30.png');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -32,4 +32,77 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  @media (max-width: 767px) {
+    .brands {
+      margin: 40px 20px;
+    }
+  
+    .brands-container {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .brand-logo {
+      padding: 15px 40px;
+    }
+  
+    .brand-logo img {
+      max-width: 70px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .brands {
+      margin: 60px 40px;
+    }
+  
+    .brands-container {
+      gap: 30px;
+    }
+  
+    .brand-logo {
+      padding: 20px 50px;
+    }
+  
+    .brand-logo img {
+      max-width: 80px;
+    }
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .brands {
+      margin: 60px 60px;
+    }
+  
+    .brands-container {
+      gap: 35px;
+    }
+  
+    .brand-logo {
+      padding: 20px 60px;
+    }
+  
+    .brand-logo img {
+      max-width: 90px;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .brands {
+      margin: 60px 180px;
+    }
+  
+    .brands-container {
+      gap: 40px;
+    }
+  
+    .brand-logo {
+      padding: 20px 70px;
+    }
+  
+    .brand-logo img {
+      max-width: 90px;
+    }
   }

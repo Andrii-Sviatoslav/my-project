@@ -31,3 +31,53 @@
   font-size: 20px;
   color: #666;
 }
+
+@media (min-width: 768px) {
+  .features {
+    margin: 40px 60px;
+  }
+
+  .features-container {
+    justify-content: space-around;
+  }
+
+  .feature-item {
+    width: calc(50% - 60px);
+    max-width: 500px;
+    margin: 30px;
+  }
+
+  .feature-title {
+    font-size: 28px;
+  }
+
+  .feature-description {
+    font-size: 18px;
+  }
+
+  .feature-icon img {
+    width: 70px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .features {
+    margin: 60px 100px;
+  }
+
+  .features-container {
+    justify-content: space-around;
+  }
+
+  .feature-item {
+    width: 320px;
+    max-width: none;
+    margin: 40px 20px;
+    height: 280px;
+    padding: 30px 20px;
+  }
+
+  .feature-title {
+    font-size: 30px;
+  }
+}

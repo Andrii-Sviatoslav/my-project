@@ -55,3 +55,102 @@
   height: 60px;
   font-size: 15px;
 }
+
+@media (min-width: 768px) {
+  .loan {
+    margin: 40px 60px;
+  }
+
+  .loan-list-item {
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+
+  .image-container img {
+    max-width: 350px;
+    height: 250px;
+  }
+
+  .text-container {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .text-container button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+
+  .category {
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+
+  .categore-subtext {
+    font-size: 32px;
+    margin-bottom: 12px;
+    padding: 8px;
+  }
+
+  .category-text {
+    font-size: 18px;
+    margin-bottom: 18px;
+    padding: 8px 12px;
+  }
+
+  .content-button {
+    margin: 10px 15px;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .loan {
+    margin: 60px 100px;
+  }
+
+  .image-container img {
+    max-width: 480px;
+    height: 320px;
+  }
+
+  .category {
+    font-size: 15px;
+  }
+
+  .categore-subtext {
+    font-size: 36px;
+  }
+
+  .category-text {
+    font-size: 20px;
+  }
+
+  .content-button {
+    width: 220px;
+    height: 55px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .loan {
+    margin: 60px 180px;
+  }
+
+  .image-container img {
+    max-width: 580px;
+    height: 380px;
+  }
+
+  .text-container button {
+    padding: 5px;
+  }
+
+  .content-button {
+    width: 250px;
+    height: 60px;
+    font-size: 15px;
+  }
+}

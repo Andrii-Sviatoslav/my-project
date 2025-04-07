@@ -63,3 +63,155 @@
 .news-card-read-more:hover {
   background-color: #c00;
 }
+
+@media (max-width: 767px) {
+  .news {
+    margin: 40px 20px;
+  }
+
+  .news-header-subtitle {
+    font-size: 48px;
+    margin-bottom: 15px;
+  }
+
+  .news-header-text {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .news-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .news-card img {
+    height: auto;
+  }
+
+  .news-card-text {
+    font-size: 18px;
+  }
+
+  .news-card-excerpt {
+    font-size: 14px;
+  }
+
+  .news-card-read-more {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .news {
+    margin: 60px 40px;
+  }
+
+  .news-header-subtitle {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+  .news-header-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .news-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+  }
+
+  .news-card img {
+    height: 220px;
+  }
+
+  .news-card-text {
+    font-size: 20px;
+  }
+
+  .news-card-excerpt {
+    font-size: 15px;
+  }
+
+  .news-card-read-more {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .news {
+    margin: 80px 60px;
+  }
+
+  .news-header-subtitle {
+    font-size: 70px;
+    margin-bottom: 25px;
+  }
+
+  .news-header-text {
+    font-size: 19px;
+    margin-bottom: 35px;
+  }
+
+  .news-grid {
+    gap: 35px;
+  }
+
+  .news-card img {
+    height: 250px;
+    width: 100%;
+  }
+
+  .news-card-text {
+    font-size: 21px;
+  }
+
+  .news-card-excerpt {
+    font-size: 16px;
+  }
+
+  .news-card-read-more {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .news {
+    margin: 80px 180px;
+  }
+
+  .news-header-subtitle {
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+
+  .news-header-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .news-grid {
+    gap: 40px;
+  }
+
+  .news-card img {
+    height: 270px;
+    width: 500px;
+  }
+
+  .news-card-text {
+    font-size: 21px;
+  }
+
+  .news-card-excerpt {
+    font-size: 16px;
+  }
+
+  .news-card-read-more {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+}

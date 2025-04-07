@@ -69,3 +69,121 @@
 .info-container-car-button:hover {
   text-decoration: underline;
 }
+
+@media (min-width: 768px) {
+  .info {
+    padding: 60px 0;
+  }
+
+  .info-container {
+    padding: 30px;
+  }
+
+  .info-container-text {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .info-container-title {
+    font-size: 28px;
+    padding: 12px;
+  }
+
+  .info-container-subtitle {
+    font-size: 50px;
+  }
+
+  .info-container-cars {
+    margin-top: 40px;
+  }
+
+  .info-container-car {
+    margin: 0 30px 30px 30px;
+  }
+
+  .info-container-car img {
+    height: 100px;
+    max-width: 300px;
+    margin-bottom: 18px;
+  }
+
+  .info-container-car-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .info-container-car-price {
+    font-size: 15px;
+  }
+
+  .info-container-car-text {
+    font-size: 18px;
+  }
+
+  .info-container-car-button {
+    padding: 10px 25px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .info-container {
+    padding: 40px;
+  }
+
+  .info-container-text {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  .info-container-title {
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  .info-container-subtitle {
+    font-size: 60px;
+  }
+
+  .info-container-cars {
+    margin-top: 50px;
+  }
+
+  .info-container-car {
+    margin: 0 40px;
+  }
+
+  .info-container-car img {
+    height: 120px;
+    max-width: 360px;
+    margin-bottom: 20px;
+  }
+
+  .info-container-car-title {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .info-container-car-price {
+    font-size: 16px;
+  }
+
+  .info-container-car-text {
+    font-size: 20px;
+  }
+
+  .info-container-car-button {
+    padding: 10px 30px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .info-container-subtitle {
+    font-size: 70px;
+  }
+
+  .info-container-car {
+    margin: 0 60px;
+  }
+}

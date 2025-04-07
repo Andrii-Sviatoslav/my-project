@@ -75,3 +75,110 @@
   margin-top: 20px;
   font-size: 20px;
 }
+
+@media (min-width: 768px) {
+  .offers-section {
+    align-items: flex-start;
+  }
+
+  .offers-content {
+    text-align: left;
+    max-width: 50%;
+    margin-bottom: 0;
+    padding-right: 40px;
+  }
+
+  .offers-title {
+    font-size: 20px;
+  }
+
+  .offers-heading {
+    font-size: 50px;
+  }
+
+  .offers-description {
+    font-size: 18px;
+  }
+
+  .offers-cards {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .offer-card {
+    width: calc(50% - 20px);
+  }
+
+  .car-model {
+    font-size: 20px;
+  }
+
+  .price {
+    font-size: 1.05em;
+  }
+
+  .view-details {
+    font-size: 15px;
+  }
+
+  .request-button {
+    font-size: 18px;
+    width: auto;
+    padding: 10px 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .offers-section {
+    margin: 60px 60px;
+  }
+
+  .offers-content {
+    max-width: 400px;
+    padding: 40px;
+  }
+
+  .offers-title {
+    font-size: 22px;
+  }
+
+  .offers-heading {
+    font-size: 64px;
+  }
+
+  .offers-description {
+    font-size: 21px;
+  }
+
+  .offers-cards {
+    gap: 30px;
+  }
+
+  .offer-card {
+    width: 350px;
+  }
+
+  .car-model {
+    font-size: 21px;
+  }
+
+  .price {
+    font-size: 1.1em;
+  }
+
+  .view-details {
+    font-size: 16px;
+  }
+
+  .request-button {
+    font-size: 20px;
+    padding: 10px 25px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .offers-section {
+    margin: 60px 180px;
+  }
+}

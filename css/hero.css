@@ -37,3 +37,115 @@
 .button-secondary {
   border: 1px #e00 solid;
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .hero {
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 50px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+  }
+
+  .hero-button {
+    width: auto;
+  }
+
+  .button-primary {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero {
+    padding: 100px 20px;
+    text-align: left;
+  }
+
+  .hero-title {
+    font-size: 70px;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+    margin: 0 50% 20px 0;
+  }
+
+  .hero-buttons {
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .hero-button {
+    font-size: 20px;
+    padding: 15px 30px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .hero {
+    padding: 150px 20px;
+    text-align: left;
+  }
+
+  .hero-title {
+    font-size: 90px;
+  }
+
+  .hero-subtitle {
+    font-size: 20px;
+    margin: 0 60% 25px 0;
+  }
+
+  .hero-buttons {
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 35px;
+  }
+
+  .hero-button {
+    font-size: 24px;
+    padding: 18px 35px;
+  }
+}
+
+@media (min-width: 1441px) {
+  .hero {
+    padding: 200px 0;
+    margin: 0 180px;
+    text-align: left;
+  }
+
+  .hero-title {
+    font-size: 100px;
+  }
+
+  .hero-subtitle {
+    font-size: 20px;
+    margin: 0 730px 25px 0;
+  }
+
+  .hero-buttons {
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 40px;
+  }
+
+  .hero-button {
+    font-size: 30px;
+    padding: 20px;
+  }
+}

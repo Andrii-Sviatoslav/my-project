@@ -73,3 +73,158 @@
   text-align: left;
   padding: 30px 0 0;
 }
+
+@media (max-width: 767px) {
+  .leasing-info {
+    margin: 20px 20px;
+  }
+
+  .leasing-header-title {
+    font-size: 48px;
+  }
+
+  .leasing-header-text {
+    font-size: 24px;
+  }
+
+  .leasing-header-subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .leasing-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .leasing-card {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .leasing-card-text {
+    font-size: 16px;
+  }
+
+  .leasing-card-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .leasing-info {
+    margin: 30px 40px;
+  }
+
+  .leasing-header-title {
+    font-size: 60px;
+  }
+
+  .leasing-header-text {
+    font-size: 28px;
+  }
+
+  .leasing-header-subtitle {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+
+  .leasing-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .leasing-card {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .leasing-card-text {
+    font-size: 18px;
+  }
+
+  .leasing-card-subtitle {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .leasing-info {
+    margin: 40px 60px;
+  }
+
+  .leasing-header-title {
+    font-size: 72px;
+  }
+
+  .leasing-header-text {
+    font-size: 32px;
+  }
+
+  .leasing-header-subtitle {
+    font-size: 19px;
+    margin-bottom: 40px;
+  }
+
+  .leasing-grid {
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .leasing-card {
+    width: 280px;
+    height: 320px;
+    padding: 20px;
+  }
+
+  .leasing-card-text {
+    font-size: 19px;
+  }
+
+  .leasing-card-subtitle {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .leasing-info {
+    margin: 20px 180px;
+  }
+
+  .leasing-header-title {
+    font-size: 72px;
+  }
+
+  .leasing-header-text {
+    font-size: 32px;
+  }
+
+  .leasing-header-subtitle {
+    font-size: 19px;
+    margin-bottom: 40px;
+  }
+
+  .leasing-grid {
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+  }
+
+  .leasing-card {
+    width: 270px;
+    height: 350px;
+    padding: 20px;
+  }
+
+  .leasing-card-text {
+    font-size: 19px;
+  }
+
+  .leasing-card-subtitle {
+    font-size: 15px;
+  }
+}
